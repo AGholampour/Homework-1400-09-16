@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+    <h1>جملات انگیزشی</h1>
+    <p id="demo"></p>
+    <script>
+        let Message;
+        switch(new Date().getDay()){
+            case 0:
+            Message="هرگز تسلیم نشوید، امروز سخت است و فردا سخت تر، اما پس فردا روز روشنی برای تان خواهد بود";
+            break;
+            case 1:
+            Message="مکث کن، نفس بکش، اگر باید گریه کنی اینکارو بکن، ولی هیچ وقت نا امید نشو و به راهت ادامه بده";
+            break;
+            case 2:
+            Message="برای چیزی که پنج سال دیگه ارزشی نداره بیشتر از پنج دقیقه غصه نخور";
+            break;
+            case 3:
+            Message="هیچ وقت اجازه نده کسی بهت بگه نمی تونی کاری رو انجام بدی";
+            break;
+            case 4:
+            Message="رویاهات رو برای آدم ها تعریف نکن، نشونشون بده";
+            break;
+            case 5:
+            Message="اگر می‌خواهید خواب‌ هایتان تعبیر شوند، اول باید بیدار شوید";
+            break;
+            case 6:
+            Message="هیچ وقت برای چیزهایی که می تونی خودت به دست بیاری به کسی التماس نکن";
+           
+        }
+        document.getElementById("demo").innerHTML="جمله : "+Message;
+    </script>
+</body>
+</html>
